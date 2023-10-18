@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+}
+
+.container {
+  width: 200px; /* Set the width of the container */
+  margin: 0; /* Center the container horizontally */
+  padding: 20px;
+}
+#signUpForm {
+  margin-top: 50px;
+  width: 300px;
+  margin-left: 150%;
+  background: whitesmoke;
+  padding: 10px;
+  border-radius: 10px;
+}
+h2 {
+  text-align: center;
+  color: black;
+}
+#signUpForm button {
+  width: 100%;
+  padding: 5px;
+  background-color: aqua;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px;
+  border: 1px solid black;
+  font-size: 20px;
+}
+#signUpForm button:hover {
+  background-color: #0056b3; /* Change button color on hover */
+}
+
+.form-group label {
+  font-weight: bold;
+  margin-top: 20px;
+}
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+
+  margin-left: 20px;
+}
+.formGroup input {
+  border-radius: 5px;
+  padding: 5px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  border: 1px solid black;
+  width: 100%;
+}
+.formGroup .error {
+  color: red;
+  font-size: 10px;
+  margin-top: 5px; /* Set the color of the error message */
+}
+.formGroup .success input {
+  border-color: green;
+}
+.formGroup .error input {
+  border-color: red;
+}

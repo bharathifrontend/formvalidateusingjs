@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-image: url(boyimage.png);
+
+  background-size: cover; /* Adjust this property as needed */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.container {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 600px; /* Adjust the maximum width to your preference */
+  padding: 20px;
+}
+h2 {
+  font-size: 24px;
+  text-align: center;
+  margin-top: 100px;
+  padding: 10px;
+}
+
+p {
+  font-size: 12px;
+  text-align: center;
+  color: white;
+}
+btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-right: 10px;
+  background-color: #055fbf; /* Change the button color as needed */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3; /* Change the button hover color as needed */
+}
