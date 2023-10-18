@@ -7,8 +7,9 @@ const confirmPassword = document.querySelector("#cpassword");
 
 signUpForm.addEventListener("submit", function (event) {
   // Prevent the form from submitting
-  validateInputs();
+ if(!validateInputs()){
   event.preventDefault();
+ }
 });
 function validateInputs() {
   const userNameVal = userName.value.trim();
