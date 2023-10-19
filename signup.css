@@ -32,6 +32,9 @@ h2 {
 #signUpForm button:hover {
   background-color: #0056b3; /* Change button color on hover */
 }
+#signUpForm button a {
+  text-decoration: none !important;
+}
 
 .form-group label {
   font-weight: bold;
